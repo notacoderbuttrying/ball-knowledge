@@ -1,51 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Test your knowledge with daily sports trivia at Ball Knowledge!">
-  <title>Ball Knowledge - Daily Sports Trivia</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="https://via.placeholder.com/32" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ball Knowledge</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="https://via.placeholder.com/32">
 </head>
 <body>
-  <header role="banner">
-    <h1>Ball Knowledge</h1>
-    <p role="doc-subtitle">Daily Sports Trivia - Updated for <span id="current-date"></span></p>
-    <nav role="navigation">
-      <ul>
-        <li><a href="#nfl-quiz">NFL</a></li>
-        <li><a href="#golf-quiz">Golf</a></li>
-        <!-- Add more sports links as needed -->
-      </ul>
-    </nav>
-  </header>
-  <main role="main">
-    <section id="nfl-quiz" aria-labelledby="nfl-title">
-      <h2 id="nfl-title">NFL Trivia</h2>
-      <div id="nfl-questions" class="quiz-container"></div>
-      <div class="button-group">
-        <button onclick="checkAnswers('NFL')" aria-label="Submit NFL quiz answers">Submit NFL Answers</button>
-        <button onclick="resetQuiz('NFL')" class="reset-btn" aria-label="Reset NFL quiz">Reset</button>
-      </div>
-      <p id="nfl-score" class="score-display" role="alert"></p>
-    </section>
-    <section id="golf-quiz" aria-labelledby="golf-title">
-      <h2 id="golf-title">Golf Trivia</h2>
-      <div id="golf-questions" class="quiz-container"></div>
-      <div class="button-group">
-        <button onclick="checkAnswers('Golf')" aria-label="Submit Golf quiz answers">Submit Golf Answers</button>
-        <button onclick="resetQuiz('Golf')" class="reset-btn" aria-label="Reset Golf quiz">Reset</button>
-      </div>
-      <p id="golf-score" class="score-display" role="alert"></p>
-    </section>
-    <!-- Add more sections here for other sports -->
-  </main>
-  <footer role="contentinfo">
-    <p>© 2025 notacoderbuttrying. All rights reserved. | <a href="https://github.com/notacoderbuttrying/ball-knowledge">GitHub</a></p>
-  </footer>
-  <script src="questions.js"></script>
-  <script src="potentialAnswers.js"></script>
-  <script src="script.js"></script>
+    <header>
+        <h1>Ball Knowledge</h1>
+        <p>Daily Sports Trivia - Updated for March 7, 2025</p>
+        <nav>
+            <button id="nflBtn">NFL</button>
+            <button id="collegeFootballBtn">College Football</button>
+            <button id="nbaBtn">NBA</button>
+            <button id="nhlBtn">NHL</button>
+            <button id="collegeBasketballBtn">College Basketball</button>
+            <button id="soccerBtn">Soccer</button>
+            <button id="randomBtn">Random</button>
+        </nav>
+    </header>
+    <main>
+        <section id="nflQuiz" class="quiz-section">
+            <h2>NFL Trivia</h2>
+            <div id="nflQuestions"></div>
+            <button id="submitNfl">Submit NFL Answers</button>
+            <button id="resetNfl" class="reset-btn">Reset</button>
+        </section>
+        <section id="collegeFootballQuiz" class="quiz-section">
+            <h2>College Football Trivia</h2>
+            <div id="collegeFootballQuestions"></div>
+            <button id="submitCollegeFootball">Submit College Football Answers</button>
+            <button id="resetCollegeFootball" class="reset-btn">Reset</button>
+        </section>
+        <section id="nbaQuiz" class="quiz-section">
+            <h2>NBA Trivia</h2>
+            <div id="nbaQuestions"></div>
+            <button id="submitNba">Submit NBA Answers</button>
+            <button id="resetNba" class="reset-btn">Reset</button>
+        </section>
+        <section id="nhlQuiz" class="quiz-section">
+            <h2>NHL Trivia</h2>
+            <div id="nhlQuestions"></div>
+            <button id="submitNhl">Submit NHL Answers</button>
+            <button id="resetNhl" class="reset-btn">Reset</button>
+        </section>
+        <section id="collegeBasketballQuiz" class="quiz-section">
+            <h2>College Basketball Trivia</h2>
+            <div id="collegeBasketballQuestions"></div>
+            <button id="submitCollegeBasketball">Submit College Basketball Answers</button>
+            <button id="resetCollegeBasketball" class="reset-btn">Reset</button>
+        </section>
+        <section id="soccerQuiz" class="quiz-section">
+            <h2>Soccer Trivia</h2>
+            <div id="soccerQuestions"></div>
+            <button id="submitSoccer">Submit Soccer Answers</button>
+            <button id="resetSoccer" class="reset-btn">Reset</button>
+        </section>
+        <section id="randomQuiz" class="quiz-section">
+            <h2>Random Trivia</h2>
+            <div id="randomQuestions"></div>
+            <button id="submitRandom">Submit Random Answers</button>
+            <button id="resetRandom" class="reset-btn">Reset</button>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 notacoderbuttrying. All rights reserved. | <a href="https://github.com/notacoderbuttrying">GitHub</a></p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
