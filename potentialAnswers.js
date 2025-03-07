@@ -145,4 +145,267 @@ const potentialAnswers = {
     ["Wayne Rooney", "Bobby Charlton", "Denis Law", "Cristiano Ronaldo", "George Best", "Eric Cantona", "Ryan Giggs", "Paul Scholes", "David Beckham", "Ruud van Nistelrooy"],
     ["Bayern Munich", "Borussia Dortmund", "Hamburger SV", "Werder Bremen", "VfB Stuttgart", "Borussia Mönchengladbach", "Eintracht Frankfurt", "Schalke 04", "Bayer Leverkusen", "RB Leipzig"],
     ["Karim Benzema", "Lionel Messi", "Robert Lewandowski", "Kylian Mbappé", "Kevin De Bruyne", "Neymar", "Harry Kane", "Mohamed Salah", "Luka Modrić", "Erling Haaland"],
-    ["Petr Čech", "David James", "Mark Schwarzer", "David Seaman", "Pepe Reina", "Edwin van der Sar", "Tim Howard", "Brad
+    ["Petr Čech", "David James", "Mark Schwarzer", "David Seaman", "Pepe Reina", "Edwin van der Sar", "Tim Howard", "Brad"]
+    ],
+  // Add this inside the potentialAnswers object in potentialAnswers.js
+"NHL": [
+    ["Wayne Gretzky", "Jaromir Jagr", "Mark Messier", "Sidney Crosby", "Mario Lemieux"],
+    ["Montreal Canadiens", "Toronto Maple Leafs", "Boston Bruins", "Detroit Red Wings", "Chicago Blackhawks"],
+    ["Alex Ovechkin", "Gordie Howe", "Brett Hull", "Mario Lemieux", "Jaromir Jagr"],
+    ["Eddie Shore", "Bobby Orr", "Connor McDavid", "Sidney Crosby", "Mario Lemieux"],
+    ["Jonathan Marchessault", "Nathan MacKinnon", "Cale Makar", "Leon Draisaitl", "Jack Eichel"],
+    ["20 minutes", "15 minutes", "30 minutes", "10 minutes", "25 minutes"],
+    ["Wayne Gretzky", "Ron Francis", "Mark Messier", "Ray Bourque", "Joe Thornton"],
+    ["Montreal Canadiens", "New York Islanders", "Edmonton Oilers", "Pittsburgh Penguins", "Detroit Red Wings"],
+    ["Wayne Gretzky", "Alex Ovechkin", "Brett Hull", "Mike Bossy", "Mario Lemieux"],
+    ["Moritz Seider", "Cale Makar", "Matty Beniers", "Trevor Zegras", "Cole Caufield"],
+    ["200x85 feet", "180x80 feet", "220x90 feet", "190x75 feet", "210x100 feet"],
+    ["Colorado Avalanche", "Tampa Bay Lightning", "Vegas Golden Knights", "Florida Panthers", "St. Louis Blues"],
+    ["Alex Ovechkin", "Dave Andreychuk", "Brett Hull", "Phil Esposito", "Mario Lemieux"],
+    ["Gordie Howe", "Ray Bourque", "Wayne Gretzky", "Mark Messier", "Steve Yzerman"],
+    ["5.5-6 ounces", "4-5 ounces", "6-7 ounces", "3-4 ounces", "7-8 ounces"],
+    ["Tampa Bay Lightning", "Pittsburgh Penguins", "Boston Bruins", "Washington Capitals", "New Jersey Devils"],
+    ["Linus Ullmark", "Igor Shesterkin", "Connor Hellebuyck", "Andrei Vasilevskiy", "Juuse Saros"],
+    ["Martin Brodeur", "Terry Sawchuk", "George Hainsworth", "Patrick Roy", "Dominik Hasek"],
+    ["6", "5", "7", "4", "8"],
+    ["Tampa Bay Lightning", "St. Louis Blues", "Dallas Stars", "Colorado Avalanche", "Boston Bruins"],
+    ["Tiger Williams", "Dave Schultz", "Bob Probert", "Marty McSorley", "Tie Domi"],
+    ["Cale Makar", "Roman Josi", "Victor Hedman", "Adam Fox", "Charlie McAvoy"],
+    ["3 inches", "2 inches", "4 inches", "2.5 inches", "3.5 inches"],
+    ["Montreal Canadiens", "Boston Bruins", "Toronto Maple Leafs", "Chicago Blackhawks", "Detroit Red Wings"],
+    ["Andrei Vasilevskiy", "Victor Hedman", "Nikita Kucherov", "Ryan O'Reilly", "Steven Stamkos"],
+    ["Wayne Gretzky", "Mario Lemieux", "Mike Bossy", "Brett Hull", "Alex Ovechkin"],
+    ["4x6 feet", "3x5 feet", "5x7 feet", "4x8 feet", "3x6 feet"],
+    ["St. Louis Blues", "Boston Bruins", "Washington Capitals", "Tampa Bay Lightning", "Pittsburgh Penguins"],
+    ["Jaromir Jagr", "Alex Ovechkin", "Brett Hull", "Phil Esposito", "Patrick Marleau"],
+    ["Patrice Bergeron", "Anze Kopitar", "Ryan O'Reilly", "Aleksander Barkov", "Jordan Staal"],
+    ["64 feet", "60 feet", "70 feet", "50 feet", "75 feet"],
+    ["Chicago Blackhawks", "Detroit Red Wings", "Colorado Avalanche", "Edmonton Oilers", "Dallas Stars"],
+    ["Jaccob Slavin", "Anze Kopitar", "Patrice Bergeron", "Auston Matthews", "Mark Stone"],
+    ["Alex Ovechkin", "Ray Bourque", "Jaromir Jagr", "Brett Hull", "Phil Esposito"],
+    ["20", "18", "22", "15", "25"],
+    ["Washington Capitals", "Pittsburgh Penguins", "Tampa Bay Lightning", "Colorado Avalanche", "St. Louis Blues"],
+    ["Gordie Howe", "Patrick Marleau", "Jaromir Jagr", "Mark Messier", "Ron Francis"],
+    ["Kirill Kaprizov", "Alex DeBrincat", "Charlie McAvoy", "Jason Robertson", "Tim Stutzle"],
+    ["5 minutes", "10 minutes", "3 minutes", "7 minutes", "15 minutes"],
+    ["Detroit Red Wings", "Boston Bruins", "Washington Capitals", "Tampa Bay Lightning", "New York Rangers"],
+    ["Erik Karlsson", "Cale Makar", "Adam Fox", "Victor Hedman", "Roman Josi"],
+    ["Bobby Orr", "Larry Robinson", "Ray Bourque", "Denis Potvin", "Chris Chelios"],
+    ["30 feet", "20 feet", "40 feet", "25 feet", "35 feet"],
+    ["Pittsburgh Penguins", "Washington Capitals", "Chicago Blackhawks", "Tampa Bay Lightning", "Nashville Predators"],
+    ["Tie Domi", "Bob Probert", "Marty McSorley", "Dave Schultz", "Chris Neil"],
+    ["Patrice Bergeron", "Anze Kopitar", "Jonathan Toews", "Sidney Crosby", "Aleksander Barkov"],
+    ["No time limit", "10 seconds", "5 seconds", "15 seconds", "20 seconds"],
+    ["Montreal Canadiens", "Detroit Red Wings", "Edmonton Oilers", "Boston Bruins", "Chicago Blackhawks"],
+    ["Marc-André Fleury", "Andrei Vasilevskiy", "Carey Price", "Igor Shesterkin", "Jacob Markstrom"],
+    ["Alex Ovechkin", "Sidney Crosby", "Jaromir Jagr", "Brad Marchand", "Patrick Kane"]
+],
+"Random": [
+    ["Emmitt Smith", "Walter Payton", "Barry Sanders", "Adrian Peterson", "Frank Gore"],
+    ["Brazil", "Germany", "Italy", "Argentina", "France"],
+    ["LeBron James", "Kareem Abdul-Jabbar", "Karl Malone", "Kobe Bryant", "Michael Jordan"],
+    ["Georgia", "Alabama", "Clemson", "LSU", "Ohio State"],
+    ["UCLA", "Kentucky", "North Carolina", "Duke", "Kansas"],
+    ["Wayne Gretzky", "Jaromir Jagr", "Mark Messier", "Sidney Crosby", "Mario Lemieux"],
+    ["Alan Shearer", "Harry Kane", "Wayne Rooney", "Thierry Henry", "Frank Lampard"],
+    ["Boston Celtics", "Los Angeles Lakers", "Golden State Warriors", "Chicago Bulls", "San Antonio Spurs"],
+    ["Ron Dayne", "Ricky Williams", "Tony Dorsett", "Herschel Walker", "Archie Griffin"],
+    ["Pete Maravich", "Freeman Williams", "Lionel Simmons", "Chris Clemons", "Kelsey Barlow"],
+    ["Montreal Canadiens", "Toronto Maple Leafs", "Boston Bruins", "Detroit Red Wings", "Chicago Blackhawks"],
+    ["John Ross", "Chris Johnson", "Tyreek Hill", "Darrell Green", "Deion Sanders"],
+    ["Cristiano Ronaldo", "Lionel Messi", "Ali Daei", "Pelé", "Ferenc Puskás"],
+    ["Wilt Chamberlain", "Kobe Bryant", "Michael Jordan", "Damian Lillard", "David Thompson"],
+    ["Caleb Williams", "Bryce Young", "CJ Stroud", "Trevor Lawrence", "Joe Burrow"],
+    ["UConn", "San Diego State", "Miami", "Florida Atlantic", "Baylor"],
+    ["Jonathan Marchessault", "Nathan MacKinnon", "Cale Makar", "Leon Draisaitl", "Jack Eichel"],
+    ["New England Patriots", "Dallas Cowboys", "Pittsburgh Steelers", "San Francisco 49ers", "Philadelphia Eagles"],
+    ["Italy", "England", "Spain", "France", "Germany"],
+    ["John Stockton", "Chris Paul", "LeBron James", "Jason Kidd", "Steve Nash"],
+    ["Alabama", "Georgia", "Tennessee", "LSU", "Florida"],
+    ["Duke", "North Carolina", "Virginia", "Syracuse", "Louisville"],
+    ["Wayne Gretzky", "Ron Francis", "Mark Messier", "Ray Bourque", "Joe Thornton"],
+    ["Tom Brady", "Peyton Manning", "Drew Brees", "Brett Favre", "Dan Marino"],
+    ["Cristiano Ronaldo", "Lionel Messi", "Karim Benzema", "Raúl", "Ángel Di María"],
+    ["Golden State Warriors", "Boston Celtics", "Milwaukee Bucks", "Denver Nuggets", "Toronto Raptors"],
+    ["Case Keenum", "Timmy Chang", "Colt Brennan", "Graham Harrell", "Landry Jones"],
+    ["Oscar Tshiebwe", "Keegan Murray", "Johnny Davis", "Kofi Cockburn", "Drew Timme"],
+    ["Colorado Avalanche", "Tampa Bay Lightning", "Vegas Golden Knights", "Florida Panthers", "St. Louis Blues"],
+    ["Bruce Smith", "Reggie White", "DeMarcus Ware", "Aaron Donald", "Von Miller"],
+    ["Lionel Messi", "Erling Haaland", "Kevin De Bruyne", "Kylian Mbappé", "Karim Benzema"],
+    ["Wilt Chamberlain", "Bill Russell", "Kareem Abdul-Jabbar", "Tim Duncan", "Moses Malone"],
+    ["Alabama", "Georgia", "Clemson", "LSU", "Ohio State"],
+    ["Bobby Hurley", "Chris Paul", "Jason Kidd", "Sherman Douglas", "Gary Payton"],
+    ["Alex Ovechkin", "Dave Andreychuk", "Brett Hull", "Phil Esposito", "Mario Lemieux"],
+    ["Tom Brady", "Joe Montana", "Peyton Manning", "Terry Bradshaw", "Patrick Mahomes"],
+    ["Qatar", "Russia", "Brazil", "Germany", "South Africa"],
+    ["Nikola Jokić", "Jamal Murray", "Jimmy Butler", "Bam Adebayo", "Aaron Jones"],
+    ["Archie Griffin", "Caleb Williams", "Bryce Young", "Tim Tebow", "Johnny Manziel"],
+    ["Baylor", "Gonzaga", "Houston", "UCLA", "Virginia"],
+    ["Tiger Williams", "Dave Schultz", "Bob Probert", "Marty McSorley", "Tie Domi"],
+    ["Rod Woodson", "Deion Sanders", "Aqib Talib", "Charles Woodson", "Ed Reed"],
+    ["Real Madrid", "AC Milan", "Liverpool", "Bayern Munich", "Barcelona"],
+    ["John Stockton", "Jason Kidd", "Chris Paul", "Michael Jordan", "LeBron James"],
+    ["Joe Paterno", "Bobby Bowden", "Nick Saban", "Bear Bryant", "Pop Warner"],
+    ["John Linehan", "Eric Murdock", "Mookie Blaylock", "Jason Kidd", "Chris Paul"],
+    ["Montreal Canadiens", "Boston Bruins", "Toronto Maple Leafs", "Chicago Blackhawks", "Detroit Red Wings"],
+    ["Calvin Johnson", "Jerry Rice", "Cooper Kupp", "Michael Thomas", "Randy Moss"],
+    ["Kylian Mbappé", "Lionel Messi", "Olivier Giroud", "Julián Álvarez", "Ángel Di María"],
+    ["Hakeem Olajuwon", "Dikembe Mutombo", "Tim Duncan", "David Robinson", "Ben Wallace"]
+],
+  "CollegeFootball": [
+    ["Ron Dayne", "Ricky Williams", "Tony Dorsett", "Herschel Walker", "Archie Griffin"], // Q1: Top 3 rushing yards
+    ["Georgia", "Alabama", "Clemson", "LSU", "Ohio State"], // Q2: 2022 National Championship
+    ["Alabama", "Georgia", "Tennessee", "LSU", "Florida"], // Q3: Top 3 SEC titles
+    ["Caleb Williams", "Bryce Young", "CJ Stroud", "Trevor Lawrence", "Joe Burrow"], // Q4: 2022 Heisman Trophy
+    ["Case Keenum", "Timmy Chang", "Colt Brennan", "Graham Harrell", "Landry Jones"], // Q5: Top 3 passing yards
+    ["Alabama", "Georgia", "Clemson", "LSU", "Ohio State"], // Q6: 2021 CFP National Championship
+    ["Case Keenum", "Sam Ehlinger", "Colt McCoy", "Tim Tebow", "Johnny Manziel"], // Q7: Top 3 passing TDs
+    ["Archie Griffin", "Caleb Williams", "Bryce Young", "Tim Tebow", "Johnny Manziel"], // Q8: Top 3 Heisman wins
+    ["Joe Paterno", "Bobby Bowden", "Nick Saban", "Bear Bryant", "Pop Warner"], // Q9: Top 3 coaches by wins
+    ["Herschel Walker", "Barry Sanders", "Bo Jackson", "Adrian Peterson", "Ezekiel Elliott"], // Q10: Top 3 single-season rushing
+    ["Alabama", "USC", "Notre Dame", "Ohio State", "Oklahoma"], // Q11: Top 3 national titles
+    ["Tim Tebow", "Johnny Manziel", "Vince Young", "Matt Leinart", "Cam Newton"], // Q12: Top 3 total offense
+    ["Florida State", "Miami", "Clemson", "Georgia Tech", "Virginia Tech"], // Q13: Top 3 ACC titles
+    ["Bryce Young", "Trevor Lawrence", "Joe Burrow", "Tua Tagovailoa", "Kyler Murray"], // Q14: 2021 Heisman
+    ["Kellen Moore", "Colt Brennan", "Ty Detmer", "Case Keenum", "Timmy Chang"], // Q15: Top 3 completion percentage
+    ["Clemson", "Alabama", "Ohio State", "Notre Dame", "LSU"], // Q16: 2020 National Championship
+    ["Herschel Walker", "Bo Jackson", "Barry Sanders", "Adrian Peterson", "LaDainian Tomlinson"], // Q17: Top 3 yards per carry
+    ["Eddie George", "Ricky Williams", "Reggie Bush", "Herschel Walker", "Bo Jackson"], // Q18: Top 3 Heisman RBs
+    ["Florida", "LSU", "Georgia", "Auburn", "Tennessee"], // Q19: Top 3 SEC East titles
+    ["Trevor Lawrence", "Joe Burrow", "Kyler Murray", "Baker Mayfield", "Lamar Jackson"], // Q20: 2020 Heisman
+    ["Colt Brennan", "Kellen Moore", "Case Keenum", "Graham Harrell", "Ty Detmer"], // Q21: Top 3 QB rushing TDs
+    ["Ohio State", "Michigan", "Penn State", "Wisconsin", "Nebraska"], // Q22: Top 3 Big Ten titles
+    ["Barry Sanders", "Herschel Walker", "Bo Jackson", "Adrian Peterson", "Ezekiel Elliott"], // Q23: Top 3 single-game rushing
+    ["Vince Young", "Cam Newton", "Johnny Manziel", "Tim Tebow", "Matt Leinart"], // Q24: Top 3 championship game MVPs
+    ["USC", "Oklahoma", "Notre Dame", "Alabama", "Texas"], // Q25: Top 3 Heisman winners
+    ["LSU", "Clemson", "Alabama", "Ohio State", "Georgia"], // Q26: 2019 National Championship
+    ["Keenan Reynolds", "Collin Klein", "Denard Robinson", "Jordan Lynch", "Johnny Manziel"], // Q27: Top 3 dual-threat QBs
+    ["Texas", "Oklahoma", "Texas A&M", "Baylor", "TCU"], // Q28: Top 3 Big 12 titles
+    ["Joe Burrow", "Kyler Murray", "Baker Mayfield", "Lamar Jackson", "Jameis Winston"], // Q29: 2019 Heisman
+    ["Graham Harrell", "Colt Brennan", "Case Keenum", "Kellen Moore", "Ty Detmer"], // Q30: Top 3 passing yards per game
+    ["Georgia", "Clemson", "LSU", "Ohio State", "Alabama"], // Q31: 2018 National Championship
+    ["Bo Jackson", "Herschel Walker", "Barry Sanders", "Reggie Bush", "Eddie George"], // Q32: Top 3 career TDs
+    ["Florida State", "Clemson", "Miami", "Georgia Tech", "Virginia Tech"], // Q33: Top 3 longest win streaks
+    ["Baker Mayfield", "Lamar Jackson", "Jameis Winston", "Cam Newton", "Tim Tebow"], // Q34: 2018 Heisman
+    ["Ty Detmer", "Kellen Moore", "Colt Brennan", "Case Keenum", "Graham Harrell"], // Q35: Top 3 career passer rating
+    ["Alabama", "Clemson", "Georgia", "LSU", "Ohio State"], // Q36: 2017 National Championship
+    ["Reggie Bush", "Eddie George", "Ricky Williams", "Herschel Walker", "Bo Jackson"], // Q37: Top 3 career all-purpose yards
+    ["Oklahoma", "USC", "Texas", "Notre Dame", "Alabama"], // Q38: Top 3 Rose Bowl wins
+    ["Jameis Winston", "Cam Newton", "Tim Tebow", "Vince Young", "Matt Leinart"], // Q39: Top 3 career wins as QB
+    ["Clemson", "Alabama", "Ohio State", "Georgia", "LSU"], // Q40: 2016 National Championship
+    ["Denard Robinson", "Jordan Lynch", "Collin Klein", "Johnny Manziel", "Keenan Reynolds"], // Q41: Top 3 career rushing yards by QB
+    ["Notre Dame", "USC", "Michigan", "Ohio State", "Texas"], // Q42: Top 3 Sugar Bowl wins
+    ["Lamar Jackson", "Jameis Winston", "Cam Newton", "Tim Tebow", "Vince Young"], // Q43: 2017 Heisman
+    ["Kellen Moore", "Ty Detmer", "Colt Brennan", "Case Keenum", "Graham Harrell"], // Q44: Top 3 career completions
+    ["Alabama", "Clemson", "Ohio State", "Georgia", "LSU"], // Q45: 2015 National Championship
+    ["Herschel Walker", "Reggie Bush", "Eddie George", "Barry Sanders", "Bo Jackson"], // Q46: Top 3 career kick return yards
+    ["Stanford", "USC", "UCLA", "California", "Oregon"], // Q47: Top 3 Pac-12 titles
+    ["Cam Newton", "Tim Tebow", "Vince Young", "Matt Leinart", "Jameis Winston"], // Q48: Top 3 career passing TDs in championship games
+    ["Georgia", "Alabama", "Clemson", "LSU", "Ohio State"], // Q49: 2014 National Championship
+    ["Johnny Manziel", "Collin Klein", "Denard Robinson", "Jordan Lynch", "Keenan Reynolds"] // Q50: Top 3 career total offense by QB
+],
+  "CollegeBasketball": [
+    ["UCLA", "Kentucky", "North Carolina", "Duke", "Kansas"], // Q1: Top 3 NCAA championships
+    ["Pete Maravich", "Freeman Williams", "Lionel Simmons", "Chris Clemons", "Kelsey Barlow"], // Q2: Most career points
+    ["Duke", "North Carolina", "Virginia", "Syracuse", "Louisville"], // Q3: Top 3 ACC titles
+    ["UConn", "San Diego State", "Miami", "Florida Atlantic", "Baylor"], // Q4: 2023 NCAA Championship
+    ["Oscar Tshiebwe", "Keegan Murray", "Johnny Davis", "Kofi Cockburn", "Drew Timme"], // Q5: 2022 Naismith Player of the Year
+    ["Baylor", "Gonzaga", "Houston", "UCLA", "Virginia"], // Q6: 2021 NCAA Championship
+    ["Bobby Hurley", "Chris Paul", "Jason Kidd", "Sherman Douglas", "Gary Payton"], // Q7: Top 3 assists
+    ["John Linehan", "Eric Murdock", "Mookie Blaylock", "Jason Kidd", "Chris Paul"], // Q8: Top 3 steals
+    ["John Wooden", "Mike Krzyzewski", "Dean Smith", "Roy Williams", "Jim Calhoun"], // Q9: Top 3 coaches by wins
+    ["Christian Laettner", "Tyler Hansbrough", "JJ Redick", "Shane Battier", "Grant Hill"], // Q10: Top 3 points in a season
+    ["Kentucky", "UCLA", "North Carolina", "Duke", "Kansas"], // Q11: Top 3 Final Four appearances
+    ["Bill Walton", "Lew Alcindor", "Ralph Sampson", "David Thompson", "Elvin Hayes"], // Q12: Top 3 rebounds
+    ["Villanova", "Baylor", "Gonzaga", "UCLA", "Houston"], // Q13: 2020 NCAA Championship (canceled, so hypothetical)
+    ["Tim Duncan", "David Robinson", "Hakeem Olajuwon", "Patrick Ewing", "Shaquille O'Neal"], // Q14: Top 3 blocks
+    ["Kentucky", "Kansas", "UCLA", "North Carolina", "Duke"], // Q15: Top 3 tournament wins
+    ["Zion Williamson", "Anthony Davis", "Kemba Walker", "Carmelo Anthony", "Kevin Durant"], // Q16: Top 3 tournament points
+    ["Virginia", "Villanova", "Baylor", "Gonzaga", "UCLA"], // Q17: 2019 NCAA Championship
+    ["Tyler Hansbrough", "Christian Laettner", "JJ Redick", "Shane Battier", "Grant Hill"], // Q18: Top 3 career points per game
+    ["Kansas", "Kentucky", "North Carolina", "UCLA", "Duke"], // Q19: Top 3 Big 12 titles
+    ["Buddy Hield", "Trae Young", "Frank Mason III", "Michael Beasley", "Kevin Durant"], // Q20: Top 3 career three-pointers
+    ["Duke", "Kentucky", "Kansas", "North Carolina", "UCLA"], // Q21: 2018 NCAA Championship
+    ["Ralph Sampson", "Bill Walton", "Lew Alcindor", "Elvin Hayes", "David Thompson"], // Q22: Top 3 career rebounds per game
+    ["UCLA", "Kentucky", "North Carolina", "Duke", "Kansas"], // Q23: Top 3 Sweet 16 appearances
+    ["Carmelo Anthony", "Kemba Walker", "Zion Williamson", "Anthony Davis", "Kevin Durant"], // Q24: Top 3 tournament rebounds
+    ["Villanova", "Virginia", "Michigan", "Texas Tech", "Gonzaga"], // Q25: 2017 NCAA Championship
+    ["Shane Battier", "JJ Redick", "Tyler Hansbrough", "Christian Laettner", "Grant Hill"], // Q26: Top 3 career free throws
+    ["North Carolina", "Duke", "Kentucky", "Kansas", "UCLA"], // Q27: Top 3 Elite Eight appearances
+    ["Kemba Walker", "Carmelo Anthony", "Zion Williamson", "Anthony Davis", "Kevin Durant"], // Q28: Top 3 tournament assists
+    ["North Carolina", "Villanova", "Virginia", "Michigan", "Texas Tech"], // Q29: 2016 NCAA Championship
+    ["Lew Alcindor", "Bill Walton", "Ralph Sampson", "Elvin Hayes", "David Thompson"], // Q30: Top 3 career blocks per game
+    ["Kentucky", "UCLA", "North Carolina", "Duke", "Kansas"], // Q31: Top 3 No. 1 seeds
+    ["Anthony Davis", "Zion Williamson", "Kemba Walker", "Carmelo Anthony", "Kevin Durant"], // Q32: Top 3 tournament blocks
+    ["Villanova", "North Carolina", "Duke", "Kentucky", "Kansas"], // Q33: 2015 NCAA Championship
+    ["JJ Redick", "Buddy Hield", "Trae Young", "Frank Mason III", "Michael Beasley"], // Q34: Top 3 career three-point percentage
+    ["UCLA", "Kentucky", "North Carolina", "Duke", "Kansas"], // Q35: Top 3 national titles
+    ["Christian Laettner", "Tyler Hansbrough", "Shane Battier", "JJ Redick", "Grant Hill"], // Q36: Top 3 career field goals
+    ["Duke", "North Carolina", "Kentucky", "Kansas", "UCLA"], // Q37: 2014 NCAA Championship
+    ["Elvin Hayes", "Ralph Sampson", "Bill Walton", "Lew Alcindor", "David Thompson"], // Q38: Top 3 career double-doubles
+    ["Kentucky", "UCLA", "North Carolina", "Duke", "Kansas"], // Q39: Top 3 tournament appearances
+    ["Kemba Walker", "Carmelo Anthony", "Zion Williamson", "Anthony Davis", "Kevin Durant"], // Q40: Top 3 tournament steals
+    ["Kentucky", "Duke", "UConn", "Florida", "Michigan State"], // Q41: 2013 NCAA Championship
+    ["Trae Young", "Buddy Hield", "Frank Mason III", "Michael Beasley", "Kevin Durant"], // Q42: Top 3 career points in a game
+    ["UCLA", "Kentucky", "North Carolina", "Duke", "Kansas"], // Q43: Top 3 conference titles
+    ["Bill Walton", "Lew Alcindor", "Ralph Sampson", "Elvin Hayes", "David Thompson"], // Q44: Top 3 career points in a season
+    ["Louisville", "Kentucky", "Duke", "UConn", "Florida"], // Q45: 2012 NCAA Championship
+    ["Shane Battier", "JJ Redick", "Tyler Hansbrough", "Christian Laettner", "Grant Hill"], // Q46: Top 3 career assists per game
+    ["North Carolina", "UCLA", "Kentucky", "Duke", "Kansas"], // Q47: Top 3 AP No. 1 rankings
+    ["Zion Williamson", "Anthony Davis", "Kemba Walker", "Carmelo Anthony", "Kevin Durant"], // Q48: Top 3 tournament points per game
+    ["Kentucky", "North Carolina", "UCLA", "Duke", "Kansas"], // Q49: 2011 NCAA Championship
+    ["Chris Paul", "Bobby Hurley", "Jason Kidd", "Sherman Douglas", "Gary Payton"] // Q50: Top 3 career steals per game
+],
+  "Basketball": [
+    ["LeBron James", "Kareem Abdul-Jabbar", "Karl Malone", "Kobe Bryant", "Michael Jordan"], // Q1: Top 3 career points
+    ["Boston Celtics", "Los Angeles Lakers", "Golden State Warriors", "Chicago Bulls", "San Antonio Spurs"], // Q2: Most NBA Championships
+    ["Wilt Chamberlain", "Kobe Bryant", "Michael Jordan", "Damian Lillard", "David Thompson"], // Q3: Highest single-game scoring
+    ["John Stockton", "Chris Paul", "LeBron James", "Jason Kidd", "Steve Nash"], // Q4: Top 3 career assists
+    ["Golden State Warriors", "Boston Celtics", "Milwaukee Bucks", "Denver Nuggets", "Toronto Raptors"], // Q5: 2022 NBA Championship
+    ["Nikola Jokić", "Jamal Murray", "Jimmy Butler", "Bam Adebayo", "Aaron Jones"], // Q6: 2023 NBA Finals MVP
+    ["Wilt Chamberlain", "Bill Russell", "Kareem Abdul-Jabbar", "Tim Duncan", "Moses Malone"], // Q7: Top 3 career rebounds
+    ["John Stockton", "Jason Kidd", "Chris Paul", "Michael Jordan", "LeBron James"], // Q8: Top 3 career steals
+    ["Hakeem Olajuwon", "Dikembe Mutombo", "Tim Duncan", "David Robinson", "Ben Wallace"], // Q9: Most career blocks
+    ["Michael Jordan", "LeBron James", "Kareem Abdul-Jabbar", "Bill Russell", "Magic Johnson"], // Q10: Top 3 MVP awards
+    ["Los Angeles Lakers", "Boston Celtics", "Golden State Warriors", "Chicago Bulls", "San Antonio Spurs"], // Q11: Top 3 Finals appearances
+    ["Kobe Bryant", "Michael Jordan", "Wilt Chamberlain", "Damian Lillard", "Elgin Baylor"], // Q12: Top 3 career points per game
+    ["Denver Nuggets", "Milwaukee Bucks", "Boston Celtics", "Miami Heat", "Golden State Warriors"], // Q13: 2023 NBA Championship
+    ["Magic Johnson", "John Stockton", "Chris Paul", "LeBron James", "Jason Kidd"], // Q14: Top 3 career assists per game
+    ["Toronto Raptors", "Golden State Warriors", "Boston Celtics", "Milwaukee Bucks", "Denver Nuggets"], // Q15: 2021 NBA Championship
+    ["Michael Jordan", "John Stockton", "Jason Kidd", "Chris Paul", "LeBron James"], // Q16: Top 3 career steals per game
+    ["Bill Russell", "Wilt Chamberlain", "Kareem Abdul-Jabbar", "Tim Duncan", "Hakeem Olajuwon"], // Q17: Top 3 career rebounds per game
+    ["Hakeem Olajuwon", "Dikembe Mutombo", "Tim Duncan", "David Robinson", "Ben Wallace"], // Q18: Top 3 career blocks per game
+    ["Michael Jordan", "LeBron James", "Kareem Abdul-Jabbar", "Bill Russell", "Magic Johnson"], // Q19: Top 3 Finals MVPs
+    ["Golden State Warriors", "Toronto Raptors", "Los Angeles Lakers", "Boston Celtics", "Milwaukee Bucks"], // Q20: 2020 NBA Championship
+    ["Kobe Bryant", "Michael Jordan", "Wilt Chamberlain", "Damian Lillard", "Elgin Baylor"], // Q21: Top 3 single-season points
+    ["San Antonio Spurs", "Golden State Warriors", "Toronto Raptors", "Los Angeles Lakers", "Boston Celtics"], // Q22: 2019 NBA Championship
+    ["Stephen Curry", "Ray Allen", "James Harden", "Reggie Miller", "Damian Lillard"], // Q23: Top 3 career three-pointers
+    ["LeBron James", "Michael Jordan", "Kareem Abdul-Jabbar", "Bill Russell", "Magic Johnson"], // Q24: Top 3 career playoff points
+    ["Golden State Warriors", "San Antonio Spurs", "Toronto Raptors", "Los Angeles Lakers", "Boston Celtics"], // Q25: 2018 NBA Championship
+    ["Bill Russell", "Wilt Chamberlain", "Kareem Abdul-Jabbar", "Tim Duncan", "Hakeem Olajuwon"], // Q26: Top 3 career playoff rebounds
+    ["Magic Johnson", "John Stockton", "Chris Paul", "LeBron James", "Jason Kidd"], // Q27: Top 3 career playoff assists
+    ["Golden State Warriors", "San Antonio Spurs", "Miami Heat", "Cleveland Cavaliers", "Toronto Raptors"], // Q28: 2017 NBA Championship
+    ["Michael Jordan", "John Stockton", "Jason Kidd", "Chris Paul", "LeBron James"], // Q29: Top 3 career playoff steals
+    ["Hakeem Olajuwon", "Dikembe Mutombo", "Tim Duncan", "David Robinson", "Ben Wallace"], // Q30: Top 3 career playoff blocks
+    ["Golden State Warriors", "San Antonio Spurs", "Miami Heat", "Cleveland Cavaliers", "Toronto Raptors"], // Q31: 2016 NBA Championship
+    ["Stephen Curry", "Ray Allen", "James Harden", "Reggie Miller", "Damian Lillard"], // Q32: Top 3 career three-point percentage
+    ["LeBron James", "Michael Jordan", "Kareem Abdul-Jabbar", "Bill Russell", "Magic Johnson"], // Q33: Top 3 career playoff points per game
+    ["Golden State Warriors", "San Antonio Spurs", "Miami Heat", "Cleveland Cavaliers", "Toronto Raptors"], // Q34: 2015 NBA Championship
+    ["Bill Russell", "Wilt Chamberlain", "Kareem Abdul-Jabbar", "Tim Duncan", "Hakeem Olajuwon"], // Q35: Top 3 career playoff rebounds per game
+    ["Magic Johnson", "John Stockton", "Chris Paul", "LeBron James", "Jason Kidd"], // Q36: Top 3 career playoff assists per game
+    ["San Antonio Spurs", "Miami Heat", "Golden State Warriors", "Cleveland Cavaliers", "Toronto Raptors"], // Q37: 2014 NBA Championship
+    ["Michael Jordan", "John Stockton", "Jason Kidd", "Chris Paul", "LeBron James"], // Q38: Top 3 career playoff steals per game
+    ["Hakeem Olajuwon", "Dikembe Mutombo", "Tim Duncan", "David Robinson", "Ben Wallace"], // Q39: Top 3 career playoff blocks per game
+    ["Miami Heat", "San Antonio Spurs", "Golden State Warriors", "Cleveland Cavaliers", "Toronto Raptors"], // Q40: 2013 NBA Championship
+    ["Wilt Chamberlain", "Kobe Bryant", "Michael Jordan", "Damian Lillard", "Elgin Baylor"], // Q41: Top 3 career points in a game
+    ["Boston Celtics", "Los Angeles Lakers", "Golden State Warriors", "Chicago Bulls", "San Antonio Spurs"], // Q42: Top 3 conference titles
+    ["LeBron James", "Michael Jordan", "Kareem Abdul-Jabbar", "Bill Russell", "Magic Johnson"], // Q43: Top 3 career wins
+    ["Miami Heat", "San Antonio Spurs", "Golden State Warriors", "Cleveland Cavaliers", "Toronto Raptors"], // Q44: 2012 NBA Championship
+    ["Stephen Curry", "Ray Allen", "James Harden", "Reggie Miller", "Damian Lillard"], // Q45: Top 3 career three-pointers in a game
+    ["Bill Russell", "Wilt Chamberlain", "Kareem Abdul-Jabbar", "Tim Duncan", "Hakeem Olajuwon"], // Q46: Top 3 career double-doubles
+    ["Los Angeles Lakers", "Boston Celtics", "Golden State Warriors", "Chicago Bulls", "San Antonio Spurs"], // Q47: Top 3 playoff appearances
+    ["LeBron James", "Michael Jordan", "Kareem Abdul-Jabbar", "Bill Russell", "Magic Johnson"], // Q48: Top 3 career triple-doubles
+    ["Miami Heat", "San Antonio Spurs", "Golden State Warriors", "Cleveland Cavaliers", "Toronto Raptors"], // Q49: 2011 NBA Championship
+    ["John Stockton", "Chris Paul", "LeBron James", "Jason Kidd", "Steve Nash"] // Q50: Top 3 career assists in a game
+]
+    };
